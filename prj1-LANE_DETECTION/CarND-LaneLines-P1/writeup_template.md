@@ -44,7 +44,12 @@ After a few attempts, a good combination of these parameters was found to be
 
 As a final step, we processed the Hough lines so that they can be extrapolated and fitted onto the image under consideration. The left and right lanes were processed separately and then placed on the same image. 
 
+[//]: # (Image References)
+
 [image2]: ./examples/lanes-1.jpg "Lanes 1"
+
+[//]: # (Image References)
+
 [image3]: ./examples/lanes-2.jpg "Lanes 2"
 
 
@@ -56,12 +61,22 @@ As a final step, we processed the Hough lines so that they can be extrapolated a
 
 One potential shortcoming would be what would happen when the image dimensions are changed. This could lead to spurious lines being added to the region of interest. 
 
+[//]: # (Image References)
+
 [image4]: ./examples/dimensions-1.jpg "Dimensions 1"
+
+[//]: # (Image References)
+
 [image5]: ./examples/dimensions-2.jpg "Dimensions 2"
 
 Another potential shortcoming would be when the images have lot of jitter. This can be the case in poor road conditions. The jitter in the location of lines would make the lane detection unstable.
 
+[//]: # (Image References)
+
 [image6]: ./examples/jitter-1.jpg "Jitter 1"
+
+[//]: # (Image References)
+
 [image7]: ./examples/jitter-2.jpg "Jitter 2"
 
 ### 3. Possible improvements to your pipeline
