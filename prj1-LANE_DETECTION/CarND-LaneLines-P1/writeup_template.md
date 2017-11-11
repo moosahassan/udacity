@@ -42,7 +42,9 @@ max_line_gap -- maximum gap in pixels between connectable line segments
 After a few attempts, a good combination of these parameters was found to be 
 (rho = 2, theta = pi/2, threshold = 15, min_line_length = 10, max_line_gap = 50)
 
-As a final step, we processed the Hough lines so that they can be extrapolated and fitted onto the image under consideration. The left and right lanes were processed separately and then placed on the same image. 
+As a final step, we processed the Hough lines so that they can be extrapolated and fitted onto the image under consideration using `draw_lines_new` @ [https://cmlpr.github.io/blog/2016/12/06/finding-lane-lines
+]. The left and right lanes were processed separately and then placed on the same image. 
+
 
 [//]: # (Image References)
 
